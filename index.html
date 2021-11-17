@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+<title>Hamo</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<html>
+    <form id="register-form" method="GET" > 
+    <!-- Personal information -->
+    <body>
+
+<p class="title">Personal Information</p>
+<div class="group">
+
+    <label>
+        Full Name: 
+        <input type="text" name="txtFullName" required> 
+
+    </label>
+</p>
+   <p> 
+    <label>
+        Birthdate: 
+        <input type="date" name="txtBirthDate">
+        
+    </label>
+</p>
+<p>
+    <label>
+        Gender: 
+        <input type="radio" name="gender" value="male">
+        Male
+        <input type="radio" name="gender" value="female">
+        Female
+    </label>
+
+</div>
+ </body>
+ <!-- End personal information -->
+
+<!-- Contact info -->
+ <section>
+ <p class="title2">Contact Information</p>
+   <div class="group2">
+    <label>
+        Email: 
+        <input type="email" name="txtEmail">
+
+    </label>
+</p>
+<p>
+    <label>
+        Phone: 
+        <input type="tel" name="txtPhone">
+
+    </label>
+</p>
+<p>
+    <label>
+        Address:
+        <textarea rows="5" cols="100"  name="txtAddress"></textarea>
+    </label>
+</div>
+ </section>
+<!-- contact info -->
+
+<!-- University Info -->
+<section>
+<p class="title3">University Information</p>
+<div class="group3">
+   
+<p class="can">
+    
+    <label >
+    Choose Your Faculty:
+    <select name="faculty">
+        <option value="f1">Faculty 1       
+        </option>
+        <option value="f2">Faculty 2       
+        </option>
+
+    </select>
+    
+</label></p>
+
+</div>
+</section>
+<div class="button">
+<input  type="submit" class="button" value="Add" name="add">
+</div>
+</form>
+    </html>

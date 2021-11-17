@@ -1,0 +1,52 @@
+/* Personal information editor */
+body .group{
+    border:1px solid ;
+    padding:30px;
+    margin:20px
+}
+body .title{
+    text-align:center;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* end of personal information */
+
+/* Contact info ediotr */
+section .group2{
+    border:1px solid ;
+    padding:30px;
+    margin:20px
+}
+section .title2{
+    text-align:center;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* end of contact info */
+
+/* Uniersity information editor */
+section .title3{
+    text-align:center;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+}
+section .group3{
+    border:1px solid ;
+    padding:30px;
+    margin:20px
+}
+/* end of university info */
+
+/* edit the button */
+form .button{
+    width:100px;
+    height: 50px;
+}
+/* end of button */
+textarea{
+    resize: none;
+}
+section .group3 .can{
+    font-size: 18px;
+   
+}
