@@ -1,17 +1,20 @@
-<!DOCTYPE html>
-<head>
-<title>Hamo</title>
-<link rel="stylesheet" href="style.css">
-
-</head>
 <html>
+    <head>
+        <title>DM324 - Home Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+   
+    </head>
+    <!-- to get server -->
     <form id="register-form" method="GET" > 
-    <!-- Personal information -->
+        
     <body>
-
-<p class="title">Personal Information</p>
-<div class="group">
-
+<section>
+    <h1 class="title">New Student</h1>
+ <!--Personal Info-->
+ <fieldset >
+    <legend>Personal Information</legend>
+   
+    <p>
     <label>
         Full Name: 
         <input type="text" name="txtFullName" required> 
@@ -33,15 +36,16 @@
         <input type="radio" name="gender" value="female">
         Female
     </label>
+</p>
+</fieldset>
 
-</div>
- </body>
- <!-- End personal information -->
+<!--Personal Info-->
 
-<!-- Contact info -->
- <section>
- <p class="title2">Contact Information</p>
-   <div class="group2">
+<!--Contact Info-->
+<fieldset>
+    <legend>Contact Information</legend>
+   
+<p>
     <label>
         Email: 
         <input type="email" name="txtEmail">
@@ -56,22 +60,19 @@
     </label>
 </p>
 <p>
-    <label>
+    <label class="address">
         Address:
-        <textarea rows="5" cols="100"  name="txtAddress"></textarea>
+        <textarea rows="5" cols="100" name="txtAddress"></textarea>
     </label>
-</div>
- </section>
-<!-- contact info -->
+</p>
+</fieldset>
+<!--#Contact Info-->
 
-<!-- University Info -->
-<section>
-<p class="title3">University Information</p>
-<div class="group3">
+<!--University Info-->
+<fieldset>
+    <legend>University Information</legend>
    
-<p class="can">
-    
-    <label >
+<p><label >
     Choose Your Faculty:
     <select name="faculty">
         <option value="f1">Faculty 1       
@@ -80,13 +81,20 @@
         </option>
 
     </select>
-    
 </label></p>
+</fieldset>
 
-</div>
-</section>
-<div class="button">
-<input  type="submit" class="button" value="Add" name="add">
-</div>
+<input type="submit" class="button" value="Add" name="add">
+
 </form>
-    </html>
+
+</section>   
+<hr/>
+<footer>
+ <a href ="http://www.fue.edu.eg" target="_blank">&copy; Future University in Egypt</a>&nbsp;&nbsp;&mdash;&nbsp;&nbsp;
+ <a href="mailto:20132627@fue.edu.eg">contact us</a>
+</footer>
+
+</body>
+
+</html>
